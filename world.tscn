@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://b0gi1iffnix1s"]
+
+[ext_resource type="Texture2D" uid="uid://bsoga4ecnail5" path="res://icon.svg" id="1_f3sb7"]
+[ext_resource type="Script" uid="uid://c5l1maacgrmtb" path="res://world.gd" id="1_fj7yv"]
+
+[node name="World" type="Node2D" unique_id=1843454018]
+script = ExtResource("1_fj7yv")
+
+[node name="Button" type="Button" parent="." unique_id=701192075]
+offset_left = 492.0
+offset_top = 237.0
+offset_right = 628.0
+offset_bottom = 373.0
+icon = ExtResource("1_f3sb7")
+
+[node name="Score" type="Label" parent="." unique_id=1739098535]
+offset_left = 30.0
+offset_top = 8.0
+offset_right = 153.0
+offset_bottom = 50.0
+theme_override_font_sizes/font_size = 30
+text = "Score: 0"
+
+[node name="Timer" type="Label" parent="." unique_id=610135815]
+offset_left = 30.0
+offset_top = 48.0
+offset_right = 151.0
+offset_bottom = 90.0
+theme_override_colors/font_color = Color(0.5778476, 0.00024594815, 0.5785573, 1)
+theme_override_font_sizes/font_size = 30
+text = "Time: 10"
